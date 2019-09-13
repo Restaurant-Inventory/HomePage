@@ -28,17 +28,21 @@ nav {
 }
 
 img {
-  width: 100%;
+  width: 95%;
   height: 400px;
-  border-radius: 10px;
+  margin: 30px;
+  border-radius: 10px;  
+  
 }
 
 
 
 /* Class Selector */
 .container {
-  width: 800px;
+  
+  width: 1000px;
   margin: 0 auto;
+  padding-left: 20px;
 }
 
 .container header {
@@ -60,6 +64,8 @@ img {
   display: inline-block;
   color: black;
 }
+
+
 
 .first-paragh {
   /* border: solid red; */
@@ -89,5 +95,67 @@ padding: 10px;
   color: white;
 }
 
+.middle-section {
+  border-bottom: solid gray;
+  border-top: solid gray;
+  padding: 0 30px;
+}
 
+.middle-section h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 20px 0; 
+}
+
+.content-1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Chilanka', cursive;
+  padding: 15px 100px 10px ;
+}
+
+.content-1 p {
+  width: 40%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.content-1 i {
+  display: flex;
+  align-items: baseline;
+  padding: 10px;
+}
+
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+footer .contact  {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  font-size: 20px;
+  font-family: 'Chilanka', cursive;
+}
+
+
+.information {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+ 
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.icons i {
+  padding: 10px;
+}
 
