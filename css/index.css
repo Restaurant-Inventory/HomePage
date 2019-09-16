@@ -25,12 +25,12 @@ nav {
 }
 
 img {
-  width: 95%;
+  width: 90%;
   height: 400px;
   margin: 30px;
   border-radius: 10px;  
 }
-
+/*--------------------------------------------------*/
 .container {
   /* border: solid red; */
   width: 1000px;
@@ -140,30 +140,20 @@ margin: 30px 30px;
   padding: 10px;
 }
 
+/*-------About --------*/
 
-/* 
-footer .contact  {
+.about-content {
+  /* border:solid green; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px;
+  border-bottom: 1px solid #808080;
+}
+
+.about-p {
+  /* border: solid red; */
+  font-family: 'Indie Flower', cursive;
   font-size: 20px;
-  font-family: 'Chilanka', cursive;
+  padding: 70px 0px 0; 
 }
 
 
-.information {
-  display: flex;
-  justify-content: space-around;
-}
-
-.icons {
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-}
-
-.icons i {
-  padding: 10px;
-} */
 
