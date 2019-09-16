@@ -1,10 +1,7 @@
-/* Universal Selector */
 
 * {
   box-sizing: border-box;
 }
-
-/* Element Selector */
 
 html {
   font-family: font-family: 'Chilanka', cursive;
@@ -32,17 +29,12 @@ img {
   height: 400px;
   margin: 30px;
   border-radius: 10px;  
-  
 }
 
-
-
-/* Class Selector */
 .container {
-  
+  /* border: solid red; */
   width: 1000px;
   margin: 0 auto;
-  padding-left: 20px;
 }
 
 .container header {
@@ -59,16 +51,13 @@ img {
   padding: 5px 40px;
   background: lightgray;
   border: 1px solid gray;
-  margin: 20px 20px;
+  margin: 10px 10px;
   border-radius: 5px;
   display: inline-block;
   color: black;
 }
 
-
-
 .first-paragh {
-  /* border: solid red; */
   text-align: center;
   font-size: 25px;
   padding: 10px;
@@ -86,10 +75,6 @@ img {
 padding: 10px;
 }
 
-/* Multiple Classes */
-/* Pseudo Classes */
-
-/* ID Selector */
 #sign {
   background: #125172;
   color: white;
@@ -131,9 +116,33 @@ padding: 10px;
   display: flex;
   flex-direction: row-reverse;
 }
+/*---- Footer -----*/
 
+.footer-1 {
+/* border: solid red; */
+display: flex;
+justify-content: space-around;
+}
+
+.footer_main_heading {
+  padding-top: 40px;
+}
+
+.footer-2 {
+/* border: solid blue; */
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+margin: 30px 30px;
+}
+
+.icons i {
+  padding: 10px;
+}
+
+
+/* 
 footer .contact  {
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,7 +158,6 @@ footer .contact  {
 }
 
 .icons {
- 
   display: flex;
   flex-direction: column;
   padding-top: 50px;
@@ -157,5 +165,5 @@ footer .contact  {
 
 .icons i {
   padding: 10px;
-}
+} */
 
