@@ -160,6 +160,7 @@ margin: 30px 30px;
 @media(max-width:800px) {
   .container {
     width: 100%;
+    background-color: red;
   }
 
   .nav-item {
@@ -193,6 +194,7 @@ margin: 30px 30px;
 
   .container {
     width: 100%;
+    background-color: green;
   }
 
   nav {
@@ -246,4 +248,14 @@ margin: 30px 30px;
     padding: 40px;
   }
 
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+.about-content .about-p {
+  font-size: 25px;
+  margin: 20px;
+  text-align: center;
+}
 }
