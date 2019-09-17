@@ -30,7 +30,7 @@ img {
   margin: 30px;
   border-radius: 10px;  
 }
-/*--------------------------------------------------*/
+/*-------------------DESKTOP-------------------------------*/
 .container {
   /* border: solid red; */
   width: 1000px;
@@ -152,8 +152,37 @@ margin: 30px 30px;
   /* border: solid red; */
   font-family: 'Indie Flower', cursive;
   font-size: 20px;
-  padding: 70px 0px 0; 
+  padding: 70px 50px 0; 
 }
 
+/*------------- TABLET ----*/
 
+@media(min-width:800px) {
+  .container {
+    width: 100%;
+  }
+
+  .nav-item {
+    font-size: 15px;
+  }
+
+  .content-text .content-1  {
+    padding: 5px;    
+  }
+
+  footer .footer-1 .footer_main_heading {
+    border-right: 1px solid gray;
+    padding-right: 100px;  
+  }
+
+  .footer-2 {
+    border-top: 1px solid gray;
+    padding: 20px 0;
+  }
+
+  .footer-2 .footer-nav .nav-item {
+    padding: 5px 20px;
+    margin: 5px 5px;
+  }
+}
 
